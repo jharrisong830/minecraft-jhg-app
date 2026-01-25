@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'minecraft.jhg.app',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'A guide to connecting to my Minecraft server.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -65,43 +65,31 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'guide',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Guide',
         },
         {
           href: 'https://github.com/jharrisong830/minecraft-jhg-app',
           label: 'GitHub',
           position: 'right',
         },
+        {
+          href: 'https://jhg.app',
+          label: 'jhg.app',
+          position: 'right',
+        }
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Setup Guide',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Guide',
+              to: '/docs/setting-up-the-client',
             },
           ],
         },
@@ -112,10 +100,14 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/jharrisong830/minecraft-jhg-app',
             },
+            {
+              label: 'jhg.app',
+              href: 'https://jhg.app',
+            }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} John Graham. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
