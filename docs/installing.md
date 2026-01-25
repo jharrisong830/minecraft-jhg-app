@@ -30,7 +30,7 @@ Prism Launcher allows you to create separate instances of Minecraft, each with d
 1. Download Prism Launcher from their [website](https://prismlauncher.org/download/windows/).
     - Any install method is fine, so long as you can locate and run the launcher
 2. Open Prism Launcher and complete any necessary setup. Log in with your Microsoft Account in order to download Minecraft
-3. Import `instance.zip` (`TODO`) by dragging it into the main Prism Launcher window
+3. Import the [Prism Instance](https://github.com/jharrisong830/minecraft-jhg-app/releases/download/instance-1/instance-1.zip) by dragging the ZIP file into the main Prism Launcher window
 
 
 ---
