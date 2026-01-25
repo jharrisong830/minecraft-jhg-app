@@ -27,6 +27,15 @@ const FeatureList: FeatureItem[] = [
         This site serves as a guide to install the necessary software needed to connect to the server. We will be using a third-party launcher and some additional mods.
       </>
     ),
+  },
+  {
+    title: 'Subject to Change',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        This server (and self-hosting in general) is an experiment for me. The content of this site may change frequently.
+      </>
+    ),
   }
 ];
 
