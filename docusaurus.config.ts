@@ -89,7 +89,7 @@ const config: Config = {
           items: [
             {
               label: 'Guide',
-              to: '/docs/setting-up-the-client',
+              to: '/docs/installing',
             },
           ],
         },
